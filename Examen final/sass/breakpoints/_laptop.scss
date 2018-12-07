@@ -1,3 +1,82 @@
-@media (max-width: $breakpoint-md){
-    
-}    
+ 
+@media (min-width: $breakpoint-lg){
+    .logo{
+        width: 16%;
+        padding: 4% 4% 4% 10%;
+    }
+
+    .menuHamburguesa{
+        display: none;
+    }
+
+    h1{
+        font-size: 100px;
+        padding: 4% 4% 4% 10%;
+        margin: 0;
+    }
+    .Irayo{
+        padding-right: 36%;
+        width: 3%;
+        float: right;
+        display: inline;
+    }
+    p{
+        display: inline-block;
+        width: 40%;
+        color: $texto;
+        padding: 0% 4% 4% 10%;
+        margin: 0;
+        font-size: 19px;
+
+    }
+
+    .boxImg{
+        padding-left:10%;
+        display: inline-block;
+
+    }
+
+    .bloque1, .bloque2{
+        position: relative;
+        display: inline;
+        padding: 19%;
+        width: 45%;
+
+    }
+    .bloque1{
+        padding: 13%;
+    }
+
+    .tocino,.flecha,.acordeón{
+        display: none;
+
+    }
+
+    .acordeón{
+        position: absolute;
+        top: 118%;
+        right: 6%;
+        width: 6%;
+        display: inline;
+        float: right;
+
+    }
+    .flecha{
+        position: absolute;
+        top: 96%;
+        left: 3%;
+        width: 4%;
+        display: inline;
+        float: left;
+    }
+
+    .tocino{
+        position: absolute;
+        top: 51%;
+        right: 0%;
+        width: 9%;
+        padding-right:4%; 
+        display: inline;
+        float: right;
+    }
+} 

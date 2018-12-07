@@ -1,3 +1,39 @@
-.footer{
+.seccion3{
+    background-color: $seccion3;
+    text-align: center;
     
+}
+.lineaFin{
+    width: 1px;
+    height: 100px;
+    background-color:$línea;
+}
+
+.teléfono{
+    padding-top:9%;
+}
+h2{
+    font-size: 43px;
+    margin: 0;
+    padding: 4%;
+}
+
+ul{
+    padding: 3%;
+    margin: 0;
+}
+
+ul, li{
+    display: inline;
+
+}
+
+a{
+    color: black;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+li+li{
+    margin-left: 1%;
 }
